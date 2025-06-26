@@ -41,3 +41,18 @@ To locate it:
   ```
 
 - Copy the full path to the `cmd` folder. You will use this path to add Git to your system `PATH`.
+
+### 2. ** Install Choco and fd finder**
+Run whole block in `Powershell`
+```
+Set-ExecutionPolicy Bypass -Scope Process -Force; `
+[System.Net.ServicePointManager]::SecurityProtocol = `
+    [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; `
+iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+```
+
+Close Powershell and reopen, then install `fd`
+```
+choco install fd -y
+```
+
