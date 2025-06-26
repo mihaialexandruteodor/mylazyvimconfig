@@ -19,8 +19,25 @@ mkdir $env:LOCALAPPDATA\nvim
 New-Item -ItemType File -Path $env:LOCALAPPDATA\nvim\init.lua
 ```
 
-get git path on Win
+### 1. **Find Git from GitHub Desktop**
+
+GitHub Desktop installs Git in a versioned subfolder under:
+
 ```
-$env:PATH -split ';' | Where-Object { $_ -match 'Git' }
+%LOCALAPPDATA%\GitHubDesktop\app-*\resources\app\git\cmd
 ```
 
+To locate it:
+
+- Press `Win + R`, paste this, and press Enter:
+  ```shell
+  %LOCALAPPDATA%\GitHubDesktop
+  ```
+
+- Open the latest `app-*` folder (e.g., `app-3.3.6`)
+- Navigate to:
+  ```
+  resources\app\git\cmd
+  ```
+
+- Copy the full path to the `cmd` folder. You will use this path to add Git to your system `PATH`.
