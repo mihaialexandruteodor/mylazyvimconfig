@@ -8,7 +8,7 @@ git clone https://github.com/mihaialexandruteodor/mylazyvimconfig ~/.config/nvim
 ```
 Win:
 ```
-git clone https://github.com/mihaialexandruteodor/mylazyvimconfig $env:LOCALAPPDATA\nvim
+git clone https://github.com/mihaialexandruteodor/mylazyvimconfig.git $env:LOCALAPPDATA\nvim
 ```
 If you're trying to reset or back up your Neovim configuration, but there’s no `nvim` folder at `%LOCALAPPDATA%\nvim`, then you likely haven't created a custom config yet.
 
