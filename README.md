@@ -6,3 +6,7 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 ```
 git clone https://github.com/mihaialexandruteodor/mylazyvimconfig ~/.config/nvim
 ```
+Win:
+```
+git clone https://github.com/mihaialexandruteodor/mylazyvimconfig $env:LOCALAPPDATA\nvim
+```
