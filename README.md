@@ -42,6 +42,10 @@ Follow these steps to install a Nerd Font using Homebrew and configure your term
 
    Close and reopen your terminal app to apply the font change, then start Neovim to enjoy proper icons and glyphs.
 
+# Set Up Catppuccin Theme in iTerm2.app (macOS)
+
+[https://github.com/catppuccin/iterm](https://github.com/catppuccin/iterm)
+
 # Set Up Catppuccin Theme in Terminal.app (macOS)
 
 [https://github.com/catppuccin/Terminal.app](https://github.com/catppuccin/Terminal.app)
