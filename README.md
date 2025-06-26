@@ -7,7 +7,7 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 `Space` + `e` : `File explorer`
 
 ```
-git clone https://github.com/mihaialexandruteodor/mylazyvimconfig ~/.config/nvim
+git clone https://github.com/mihaialexandruteodor/mylazyvimconfig.git ~/.config/nvim
 ```
 Win:
 ```
