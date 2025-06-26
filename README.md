@@ -3,6 +3,9 @@
 A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
 Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
 
+### 0. **Shortcuts**
+`Space` + `e` : `File explorer`
+
 ```
 git clone https://github.com/mihaialexandruteodor/mylazyvimconfig ~/.config/nvim
 ```
