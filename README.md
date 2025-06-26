@@ -51,6 +51,33 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; `
 iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ```
 
+# Fix "No C compiler found" Error on Windows for LazyVim
+
+This error occurs because some plugins require a C compiler to build native extensions.
+
+---
+
+## 1. Install a C Compiler
+
+### Option A: Microsoft Build Tools (Recommended)
+
+1. Download and install the **Build Tools for Visual Studio** from:
+   
+   [https://visualstudio.microsoft.com/visual-cpp-build-tools/](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
+
+2. During installation, select the **"Desktop development with C++"** workload.
+
+---
+
+## 2. Verify Compiler Installation
+
+- Open a new **Command Prompt** or **PowerShell** window.
+- Run:
+
+  ```powershell
+  cl
+
+
 Close Powershell and reopen, then install `fd`
 ```
 choco install fd -y
