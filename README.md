@@ -6,10 +6,11 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 ### 0. **Shortcuts**
 `Space` + `e` : `File explorer`
 
+## Mac:
 ```
 git clone https://github.com/mihaialexandruteodor/mylazyvimconfig.git ~/.config/nvim
 ```
-## Mac:
+
 # Setup Nerd Font on macOS for Neovim
 
 Follow these steps to install a Nerd Font using Homebrew and configure your terminal to display icons and glyphs correctly.
