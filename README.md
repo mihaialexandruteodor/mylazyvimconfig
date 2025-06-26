@@ -43,37 +43,15 @@ Follow these steps to install a Nerd Font using Homebrew and configure your term
 
 # Set Up Catppuccin Theme in Terminal.app (macOS)
 
-Follow these steps to apply the Catppuccin color scheme in Terminal.app and remove temporary files afterward.
+[https://github.com/catppuccin/Terminal.app](https://github.com/catppuccin/Terminal.app)
 
-1. Clone the Catppuccin Terminal theme:
+## Usage
 
-       cd ~/Downloads
-       git clone https://github.com/catppuccin/terminal.git catppuccin-terminal
-
-2. Install a Catppuccin Terminal profile:
-
-   Run the following to open a theme (Mocha variant shown below):
-
-       open ~/Downloads/catppuccin-terminal/Catppuccin-Mocha.terminal
-
-   This opens a new Terminal window using the selected Catppuccin theme.
-
-   You can also try other variants:
-   - `Catppuccin-Latte.terminal`
-   - `Catppuccin-Frappé.terminal`
-   - `Catppuccin-Macchiato.terminal`
-
-3. Set the Catppuccin theme as default:
-
-   - In the newly opened Terminal window, go to **Terminal > Settings** (`Cmd + ,`)
-   - Click the **Profiles** tab
-   - Select the Catppuccin profile (e.g., "Catppuccin Mocha")
-   - Click the **Default** button at the bottom
-
-4. Clean up the cloned theme:
-
-       rm -rf ~/Downloads/catppuccin-terminal
-
+1. Download your preferred flavor from [`themes/`](./themes/).
+2. Open Terminal.app's settings with <kbd>⌘ + ,</kbd> (or through **Terminal** > **Settings...** in the menubar).
+3. Open the "Profiles" tab.
+4. Click on the `...` icon below the list of themes in the left panel, and select "Import...".
+5. Upload the file downloaded in Step 1.
 
 ## Win:
 ```
