@@ -41,6 +41,38 @@ Follow these steps to install a Nerd Font using Homebrew and configure your term
 
    Close and reopen your terminal app to apply the font change, then start Neovim to enjoy proper icons and glyphs.
 
+# Set Up Catppuccin Theme in Terminal.app (macOS)
+
+Follow these steps to apply the Catppuccin color scheme in Terminal.app and remove temporary files afterward.
+
+1. Clone the Catppuccin Terminal theme:
+
+       cd ~/Downloads
+       git clone https://github.com/catppuccin/terminal.git catppuccin-terminal
+
+2. Install a Catppuccin Terminal profile:
+
+   Run the following to open a theme (Mocha variant shown below):
+
+       open ~/Downloads/catppuccin-terminal/Catppuccin-Mocha.terminal
+
+   This opens a new Terminal window using the selected Catppuccin theme.
+
+   You can also try other variants:
+   - `Catppuccin-Latte.terminal`
+   - `Catppuccin-Frappé.terminal`
+   - `Catppuccin-Macchiato.terminal`
+
+3. Set the Catppuccin theme as default:
+
+   - In the newly opened Terminal window, go to **Terminal > Settings** (`Cmd + ,`)
+   - Click the **Profiles** tab
+   - Select the Catppuccin profile (e.g., "Catppuccin Mocha")
+   - Click the **Default** button at the bottom
+
+4. Clean up the cloned theme:
+
+       rm -rf ~/Downloads/catppuccin-terminal
 
 
 ## Win:
