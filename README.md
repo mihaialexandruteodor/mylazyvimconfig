@@ -17,4 +17,10 @@ If you're trying to start customizing Neovim, you can create a new configuration
 ```powershell
 mkdir $env:LOCALAPPDATA\nvim
 New-Item -ItemType File -Path $env:LOCALAPPDATA\nvim\init.lua
+```
+
+get git path on Win
+```
+$env:PATH -split ';' | Where-Object { $_ -match 'Git' }
+```
 
