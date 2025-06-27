@@ -59,7 +59,7 @@ Follow these steps to install a Nerd Font using Homebrew and configure your term
 5. Upload the file downloaded in Step 1.
 
 ## Win:
-### CURL for Windows
+### CURL for Windows (add the bin folder to PATH)
 [https://curl.se/windows/](https://curl.se/windows/)
 
 ```
