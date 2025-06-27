@@ -59,6 +59,9 @@ Follow these steps to install a Nerd Font using Homebrew and configure your term
 5. Upload the file downloaded in Step 1.
 
 ## Win:
+### CURL for Windows
+[https://curl.se/windows/](https://curl.se/windows/)
+
 ```
 git clone https://github.com/mihaialexandruteodor/mylazyvimconfig.git $env:LOCALAPPDATA\nvim
 ```
